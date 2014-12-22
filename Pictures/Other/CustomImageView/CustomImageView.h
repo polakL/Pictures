@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  CustomImageView.h
 //  Pictures
 //
 //  Created by Ludvik Polak on 21.12.14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface CustomImageView : UIImageView
 
+-(void)getContextWithUrl:(NSString *)Url;
 
 @end
-
